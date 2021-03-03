@@ -1,0 +1,37 @@
+.max-height {
+  min-height: 100vh;
+}
+body {
+  /* background: #b099a9; */
+  background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg01.jpg");
+			background-size: auto,								auto,														100% auto;
+			background-position: center,								center,														top center;
+			background-repeat: repeat,								no-repeat,													no-repeat;
+			background-attachment: scroll,								scroll,														scroll;
+			z-index: -1;
+}
+.quote-container {
+  background: rgba(255, 255, 255, 0.5);
+}
+#generate-btn {
+  color: white !important;
+  background: #0f5d30 !important;
+  border-color: #1f5f2f !important;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+#generate-btn:hover {
+  background:  rgba(255, 255, 255, 0.5) !important;
+  border-color:  rgba(255, 255, 255, 0.5) !important;
+  color: #333333 !important;
+}
+#quote {
+  /* color: #1f5f2f; */
+  color: black;
+}
+
+
+.author {
+  color: #0b4e24;
+}
